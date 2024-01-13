@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site ddd",
-  tagline: "Dinosaurs are cool ccc",
+  title: "My TypeDoc Site",
+  tagline: "Example of API docs made with TypeDoc",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
