@@ -83,7 +83,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "mySidebar",
             position: "left",
-            label: "TypeDoc",
+            label: "API",
           },
           {
             href: "https://github.com/tgreyuk/typedoc-plugin-markdown/tree/next/packages/docusaurus-plugin-typedoc",
