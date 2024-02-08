@@ -6,9 +6,7 @@ Service for managing billing transactions.
 
 ### new BillingService()
 
-```ts
-new BillingService(): BillingService
-```
+• **new BillingService**(): [`BillingService`](BillingService.md)
 
 #### Returns
 
@@ -18,17 +16,13 @@ new BillingService(): BillingService
 
 ### transactions
 
-```ts
-private transactions: BillingTransaction[] = [];
-```
+• **`private`** **transactions**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 
 ### getAllTransactions()
 
-```ts
-getAllTransactions(): BillingTransaction[]
-```
+• **getAllTransactions**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
 
 Get all billing transactions.
 
@@ -42,9 +36,7 @@ An array of all billing transactions.
 
 ### processTransaction()
 
-```ts
-processTransaction(transaction): BillingTransaction
-```
+• **processTransaction**(`transaction`): [`BillingTransaction`](../interfaces/BillingTransaction.md)
 
 Process a billing transaction.
 
@@ -59,7 +51,3 @@ The billing transaction to be processed.
 [`BillingTransaction`](../interfaces/BillingTransaction.md)
 
 The processed billing transaction.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

@@ -6,9 +6,7 @@ Class representing a product inventory.
 
 ### new ProductInventory()
 
-```ts
-new ProductInventory(): ProductInventory
-```
+• **new ProductInventory**(): [`ProductInventory`](ProductInventory.md)
 
 #### Returns
 
@@ -18,17 +16,13 @@ new ProductInventory(): ProductInventory
 
 ### products
 
-```ts
-private products: ProductDetails[] = [];
-```
+• **`private`** **products**: [`ProductDetails`](../interfaces/ProductDetails.md)[] = `[]`
 
 ## Methods
 
 ### addProduct()
 
-```ts
-addProduct(product): ProductDetails
-```
+• **addProduct**(`product`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Add a new product to the inventory.
 
@@ -48,9 +42,7 @@ The added product details.
 
 ### getAllProducts()
 
-```ts
-getAllProducts(): ProductDetails[]
-```
+• **getAllProducts**(): [`ProductDetails`](../interfaces/ProductDetails.md)[]
 
 Get all products in the inventory.
 
@@ -64,9 +56,7 @@ An array of all product details.
 
 ### getProductById()
 
-```ts
-getProductById(productId): ProductDetails
-```
+• **getProductById**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Get product details by ID.
 
@@ -86,9 +76,7 @@ The product details with the specified ID.
 
 ### getProductsByCategory()
 
-```ts
-getProductsByCategory(category): ProductDetails[]
-```
+• **getProductsByCategory**(`category`): [`ProductDetails`](../interfaces/ProductDetails.md)[]
 
 Get products by category.
 
@@ -108,9 +96,7 @@ An array of product details in the specified category.
 
 ### removeProduct()
 
-```ts
-removeProduct(productId): ProductDetails
-```
+• **removeProduct**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Remove a product from the inventory.
 
@@ -130,9 +116,7 @@ The removed product details.
 
 ### updateProductDetails()
 
-```ts
-updateProductDetails(productId, updatedDetails): ProductDetails
-```
+• **updateProductDetails**(`productId`, `updatedDetails`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Update product details.
 
@@ -151,7 +135,3 @@ The updated product details.
 [`ProductDetails`](../interfaces/ProductDetails.md)
 
 The updated product details.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

@@ -6,18 +6,10 @@ Enum representing different customer types.
 
 ### Premium
 
-```ts
-Premium: "Premium";
-```
+• **Premium**: `"Premium"`
 
 ***
 
 ### Regular
 
-```ts
-Regular: "Regular";
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **Regular**: `"Regular"`

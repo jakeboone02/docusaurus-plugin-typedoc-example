@@ -15,7 +15,3 @@ This module contains types and services related to shipping.
 | Interface | Description |
 | :------ | :------ |
 | [ShippingRecord](interfaces/ShippingRecord.md) | Interface representing a shipping record. |
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

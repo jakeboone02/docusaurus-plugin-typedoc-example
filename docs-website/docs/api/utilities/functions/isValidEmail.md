@@ -1,8 +1,6 @@
 # isValidEmail()
 
-```ts
-isValidEmail(email): boolean
-```
+• **isValidEmail**(`email`): `boolean`
 
 Function to check if a value is a valid email address.
 
@@ -17,7 +15,3 @@ The email address to be validated.
 `boolean`
 
 True if the email address is valid, false otherwise.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

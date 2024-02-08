@@ -5,7 +5,8 @@
   ],
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run start --workspace docs-website"
+    "start": "npm run start --workspace docs-website",
+    "build": "npm run build --workspace docs-website"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

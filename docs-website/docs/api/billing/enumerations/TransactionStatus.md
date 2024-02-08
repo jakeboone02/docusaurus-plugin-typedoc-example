@@ -6,26 +6,16 @@ Enum representing different transaction statuses.
 
 ### Completed
 
-```ts
-Completed: "Completed";
-```
+• **Completed**: `"Completed"`
 
 ***
 
 ### Failed
 
-```ts
-Failed: "Failed";
-```
+• **Failed**: `"Failed"`
 
 ***
 
 ### Pending
 
-```ts
-Pending: "Pending";
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **Pending**: `"Pending"`

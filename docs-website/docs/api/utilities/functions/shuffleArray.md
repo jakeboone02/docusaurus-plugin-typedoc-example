@@ -1,8 +1,6 @@
 # shuffleArray()
 
-```ts
-shuffleArray<T>(array): T[]
-```
+• **shuffleArray**\<`T`\>(`array`): `T`[]
 
 Function to shuffle an array.
 
@@ -21,7 +19,3 @@ The array to be shuffled.
 `T`[]
 
 The shuffled array.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

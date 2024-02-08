@@ -6,42 +6,28 @@ Interface representing a billing transaction.
 
 ### amount
 
-```ts
-amount: number;
-```
+• **amount**: `number`
 
 ***
 
 ### orderId
 
-```ts
-orderId: string;
-```
+• **orderId**: `string`
 
 ***
 
 ### paymentMethod
 
-```ts
-paymentMethod: PaymentMethod;
-```
+• **paymentMethod**: [`PaymentMethod`](../enumerations/PaymentMethod.md)
 
 ***
 
 ### status
 
-```ts
-status: TransactionStatus;
-```
+• **status**: [`TransactionStatus`](../enumerations/TransactionStatus.md)
 
 ***
 
 ### transactionId
 
-```ts
-transactionId: string;
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **transactionId**: `string`

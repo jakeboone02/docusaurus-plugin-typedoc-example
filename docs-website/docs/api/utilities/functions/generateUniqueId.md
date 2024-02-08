@@ -1,8 +1,6 @@
 # generateUniqueId()
 
-```ts
-generateUniqueId(): string
-```
+• **generateUniqueId**(): `string`
 
 Function to generate a unique identifier.
 
@@ -11,7 +9,3 @@ Function to generate a unique identifier.
 `string`
 
 A unique identifier.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

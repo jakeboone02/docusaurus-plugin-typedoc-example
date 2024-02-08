@@ -14,7 +14,3 @@ This module contains generic utility functions.
 | [shuffleArray](functions/shuffleArray.md) | Function to shuffle an array. |
 | [toTitleCase](functions/toTitleCase.md) | Function to convert a string to title case. |
 | [truncateString](functions/truncateString.md) | Function to truncate a string to a specified length. |
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

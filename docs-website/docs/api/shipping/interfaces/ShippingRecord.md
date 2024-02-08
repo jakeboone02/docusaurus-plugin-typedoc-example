@@ -6,34 +6,22 @@ Interface representing a shipping record.
 
 ### address
 
-```ts
-address: string;
-```
+• **address**: `string`
 
 ***
 
 ### orderId
 
-```ts
-orderId: string;
-```
+• **orderId**: `string`
 
 ***
 
 ### shipmentId
 
-```ts
-shipmentId: string;
-```
+• **shipmentId**: `string`
 
 ***
 
 ### status
 
-```ts
-status: string;
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **status**: `string`

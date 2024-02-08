@@ -6,42 +6,28 @@ Interface representing a product review.
 
 ### comment?
 
-```ts
-comment?: string;
-```
+• **`optional`** **comment**: `string`
 
 ***
 
 ### productId
 
-```ts
-productId: string;
-```
+• **productId**: `string`
 
 ***
 
 ### rating
 
-```ts
-rating: number;
-```
+• **rating**: `number`
 
 ***
 
 ### reviewId
 
-```ts
-reviewId: string;
-```
+• **reviewId**: `string`
 
 ***
 
 ### username
 
-```ts
-username: string;
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **username**: `string`

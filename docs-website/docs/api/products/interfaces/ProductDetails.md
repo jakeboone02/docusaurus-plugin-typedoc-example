@@ -10,54 +10,40 @@ Interface representing product details.
 
 ### category
 
-```ts
-category: ProductCategory;
-```
+• **category**: [`ProductCategory`](../enumerations/ProductCategory.md)
 
 ***
 
 ### description
 
-```ts
-description: string;
-```
+• **description**: `string`
 
 ***
 
 ### name
 
-```ts
-name: string;
-```
+• **name**: `string`
 
 #### Inherited from
 
-[`products.Product.name`](Product.md#name)
+[`Product`](Product.md).[`name`](Product.md#name)
 
 ***
 
 ### price
 
-```ts
-price: number;
-```
+• **price**: `number`
 
 #### Inherited from
 
-[`products.Product.price`](Product.md#price)
+[`Product`](Product.md).[`price`](Product.md#price)
 
 ***
 
 ### productId
 
-```ts
-productId: string;
-```
+• **productId**: `string`
 
 #### Inherited from
 
-[`products.Product.productId`](Product.md#productid)
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+[`Product`](Product.md).[`productId`](Product.md#productid)

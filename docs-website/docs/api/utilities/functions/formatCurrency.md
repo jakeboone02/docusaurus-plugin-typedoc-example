@@ -1,8 +1,6 @@
 # formatCurrency()
 
-```ts
-formatCurrency(amount, currencyCode): string
-```
+• **formatCurrency**(`amount`, `currencyCode`): `string`
 
 Function to format a number as currency.
 
@@ -21,7 +19,3 @@ The currency code (e.g., USD, EUR).
 `string`
 
 The formatted currency string.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

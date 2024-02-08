@@ -33,22 +33,21 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  // staticDirectories: ["static"],
   plugins: [
     [
       "docusaurus-plugin-typedoc",
       {
         entryPoints: "../src/*",
         readme: "none",
-        githubPages: false,
         indexFormat: "table",
-        useCodeBlocks: true,
         disableSources: true,
         sidebar: { pretty: true },
         textContentMappings: {
           "title.indexPage": "TypeDoc API",
           "title.memberPage": "{name}",
         },
+        plugin: ["typedoc-plugin-coverage", "./typedoc-copy-coverage.mjs"],
       },
     ],
   ],
@@ -59,7 +58,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

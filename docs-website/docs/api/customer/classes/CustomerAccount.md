@@ -6,12 +6,7 @@ Class representing a customer account.
 
 ### new CustomerAccount(customer, contactInfo, billingInfo)
 
-```ts
-new CustomerAccount(
-   customer, 
-   contactInfo, 
-   billingInfo): CustomerAccount
-```
+• **new CustomerAccount**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
 
 #### Parameters
 
@@ -29,41 +24,31 @@ new CustomerAccount(
 
 ### billingInfo
 
-```ts
-private billingInfo: CustomerBilling;
-```
+• **`private`** **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
 
 ***
 
 ### contactInfo
 
-```ts
-private contactInfo: CustomerContact;
-```
+• **`private`** **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
 
 ***
 
 ### customer
 
-```ts
-private customer: Customer;
-```
+• **`private`** **customer**: [`Customer`](../interfaces/Customer.md)
 
 ***
 
 ### orderHistory
 
-```ts
-private orderHistory: CustomerOrderHistory[];
-```
+• **`private`** **orderHistory**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 ## Methods
 
 ### addOrderToHistory()
 
-```ts
-addOrderToHistory(order): void
-```
+• **addOrderToHistory**(`order`): `void`
 
 Add an order to the customer's order history.
 
@@ -81,9 +66,7 @@ The order to be added to the history.
 
 ### getBillingInfo()
 
-```ts
-getBillingInfo(): CustomerBilling
-```
+• **getBillingInfo**(): [`CustomerBilling`](../interfaces/CustomerBilling.md)
 
 Get the customer billing information.
 
@@ -97,9 +80,7 @@ The customer billing information.
 
 ### getContactInfo()
 
-```ts
-getContactInfo(): CustomerContact
-```
+• **getContactInfo**(): [`CustomerContact`](../interfaces/CustomerContact.md)
 
 Get the customer contact information.
 
@@ -113,9 +94,7 @@ The customer contact information.
 
 ### getCustomer()
 
-```ts
-getCustomer(): Customer
-```
+• **getCustomer**(): [`Customer`](../interfaces/Customer.md)
 
 Get the customer information.
 
@@ -129,9 +108,7 @@ The customer information.
 
 ### getOrderHistory()
 
-```ts
-getOrderHistory(): CustomerOrderHistory[]
-```
+• **getOrderHistory**(): [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 Get the customer's order history.
 
@@ -140,7 +117,3 @@ Get the customer's order history.
 [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 An array of the customer's order history.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

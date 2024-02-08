@@ -6,26 +6,16 @@ Interface representing a customer order history.
 
 ### orderDate
 
-```ts
-orderDate: Date;
-```
+• **orderDate**: `Date`
 
 ***
 
 ### orderId
 
-```ts
-orderId: string;
-```
+• **orderId**: `string`
 
 ***
 
 ### totalAmount
 
-```ts
-totalAmount: number;
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **totalAmount**: `number`

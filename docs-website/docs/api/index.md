@@ -1,5 +1,7 @@
 # TypeDoc API
 
+![Coverage Badge](/img/coverage.svg)
+
 ## Modules
 
 | Module | Description |
@@ -9,7 +11,3 @@
 | [products](products/index.md) | This module contains types and services related to product management. |
 | [shipping](shipping/index.md) | This module contains types and services related to shipping. |
 | [utilities](utilities/index.md) | This module contains generic utility functions. |
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

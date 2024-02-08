@@ -6,26 +6,16 @@ Interface representing a billing receipt.
 
 ### receiptId
 
-```ts
-receiptId: string;
-```
+• **receiptId**: `string`
 
 ***
 
 ### timestamp
 
-```ts
-timestamp: number;
-```
+• **timestamp**: `number`
 
 ***
 
 ### transaction
 
-```ts
-transaction: BillingTransaction;
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **transaction**: [`BillingTransaction`](BillingTransaction.md)

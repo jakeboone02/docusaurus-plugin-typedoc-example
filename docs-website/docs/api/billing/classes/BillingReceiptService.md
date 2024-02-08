@@ -6,9 +6,7 @@ Service for generating billing receipts.
 
 ### new BillingReceiptService()
 
-```ts
-new BillingReceiptService(): BillingReceiptService
-```
+• **new BillingReceiptService**(): [`BillingReceiptService`](BillingReceiptService.md)
 
 #### Returns
 
@@ -18,17 +16,13 @@ new BillingReceiptService(): BillingReceiptService
 
 ### receipts
 
-```ts
-private receipts: BillingReceipt[] = [];
-```
+• **`private`** **receipts**: [`BillingReceipt`](../interfaces/BillingReceipt.md)[] = `[]`
 
 ## Methods
 
 ### generateReceipt()
 
-```ts
-generateReceipt(transaction): BillingReceipt
-```
+• **generateReceipt**(`transaction`): [`BillingReceipt`](../interfaces/BillingReceipt.md)
 
 Generate a billing receipt for a transaction.
 
@@ -48,9 +42,7 @@ The generated billing receipt.
 
 ### getAllReceipts()
 
-```ts
-getAllReceipts(): BillingReceipt[]
-```
+• **getAllReceipts**(): [`BillingReceipt`](../interfaces/BillingReceipt.md)[]
 
 Get all billing receipts.
 
@@ -59,7 +51,3 @@ Get all billing receipts.
 [`BillingReceipt`](../interfaces/BillingReceipt.md)[]
 
 An array of all billing receipts.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

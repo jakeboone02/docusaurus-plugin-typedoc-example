@@ -6,26 +6,16 @@ Enum representing different types of payment methods.
 
 ### BankTransfer
 
-```ts
-BankTransfer: "Bank Transfer";
-```
+• **BankTransfer**: `"Bank Transfer"`
 
 ***
 
 ### CreditCard
 
-```ts
-CreditCard: "Credit Card";
-```
+• **CreditCard**: `"Credit Card"`
 
 ***
 
 ### PayPal
 
-```ts
-PayPal: "PayPal";
-```
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
+• **PayPal**: `"PayPal"`

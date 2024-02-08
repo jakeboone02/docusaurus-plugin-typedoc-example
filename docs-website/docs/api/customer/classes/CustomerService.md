@@ -6,9 +6,7 @@ Service for managing customers.
 
 ### new CustomerService()
 
-```ts
-new CustomerService(): CustomerService
-```
+• **new CustomerService**(): [`CustomerService`](CustomerService.md)
 
 #### Returns
 
@@ -18,20 +16,13 @@ new CustomerService(): CustomerService
 
 ### customers
 
-```ts
-private customers: CustomerAccount[] = [];
-```
+• **`private`** **customers**: [`CustomerAccount`](CustomerAccount.md)[] = `[]`
 
 ## Methods
 
 ### addCustomer()
 
-```ts
-addCustomer(
-   customer, 
-   contactInfo, 
-   billingInfo): CustomerAccount
-```
+• **addCustomer**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
 
 Add a new customer.
 
@@ -59,9 +50,7 @@ The added customer account.
 
 ### getAllCustomers()
 
-```ts
-getAllCustomers(): CustomerAccount[]
-```
+• **getAllCustomers**(): [`CustomerAccount`](CustomerAccount.md)[]
 
 Get all customer accounts.
 
@@ -75,9 +64,7 @@ An array of all customer accounts.
 
 ### getCustomerById()
 
-```ts
-getCustomerById(customerId): CustomerAccount
-```
+• **getCustomerById**(`customerId`): [`CustomerAccount`](CustomerAccount.md)
 
 Get a customer account by ID.
 
@@ -92,7 +79,3 @@ The ID of the customer.
 [`CustomerAccount`](CustomerAccount.md)
 
 The customer account with the specified ID.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

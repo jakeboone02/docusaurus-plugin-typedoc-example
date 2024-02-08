@@ -1,8 +1,6 @@
 # toTitleCase()
 
-```ts
-toTitleCase(input): string
-```
+• **toTitleCase**(`input`): `string`
 
 Function to convert a string to title case.
 
@@ -17,7 +15,3 @@ The input string.
 `string`
 
 The input string in title case.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

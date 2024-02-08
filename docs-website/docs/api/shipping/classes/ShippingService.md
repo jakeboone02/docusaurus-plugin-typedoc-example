@@ -6,9 +6,7 @@ Service for managing shipping records.
 
 ### new ShippingService()
 
-```ts
-new ShippingService(): ShippingService
-```
+• **new ShippingService**(): [`ShippingService`](ShippingService.md)
 
 #### Returns
 
@@ -18,17 +16,13 @@ new ShippingService(): ShippingService
 
 ### shipments
 
-```ts
-private shipments: ShippingRecord[] = [];
-```
+• **`private`** **shipments**: [`ShippingRecord`](../interfaces/ShippingRecord.md)[] = `[]`
 
 ## Methods
 
 ### getAllShipments()
 
-```ts
-getAllShipments(): ShippingRecord[]
-```
+• **getAllShipments**(): [`ShippingRecord`](../interfaces/ShippingRecord.md)[]
 
 Get all shipping records.
 
@@ -42,9 +36,7 @@ An array of all shipping records.
 
 ### shipOrder()
 
-```ts
-shipOrder(shipment): ShippingRecord
-```
+• **shipOrder**(`shipment`): [`ShippingRecord`](../interfaces/ShippingRecord.md)
 
 Ship an order.
 
@@ -59,7 +51,3 @@ The shipment record.
 [`ShippingRecord`](../interfaces/ShippingRecord.md)
 
 The shipped record.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)

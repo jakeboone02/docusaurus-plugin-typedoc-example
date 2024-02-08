@@ -6,9 +6,7 @@ Service for managing billing history.
 
 ### new BillingHistoryService()
 
-```ts
-new BillingHistoryService(): BillingHistoryService
-```
+• **new BillingHistoryService**(): [`BillingHistoryService`](BillingHistoryService.md)
 
 #### Returns
 
@@ -18,17 +16,13 @@ new BillingHistoryService(): BillingHistoryService
 
 ### history
 
-```ts
-private history: BillingTransaction[] = [];
-```
+• **`private`** **history**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 
 ### addTransactionToHistory()
 
-```ts
-addTransactionToHistory(transaction): void
-```
+• **addTransactionToHistory**(`transaction`): `void`
 
 Add a transaction to the billing history.
 
@@ -46,9 +40,7 @@ The billing transaction to be added to the history.
 
 ### getBillingHistory()
 
-```ts
-getBillingHistory(): BillingTransaction[]
-```
+• **getBillingHistory**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
 
 Get the entire billing history.
 
@@ -57,7 +49,3 @@ Get the entire billing history.
 [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
 
 An array of all billing transactions in the history.
-
-***
-
-Generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and [TypeDoc](https://typedoc.org/)
