@@ -6,7 +6,7 @@ Class representing a product inventory.
 
 ### new ProductInventory()
 
-• **new ProductInventory**(): [`ProductInventory`](ProductInventory.md)
+> **new ProductInventory**(): [`ProductInventory`](ProductInventory.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Class representing a product inventory.
 
 ### products
 
-• **`private`** **products**: [`ProductDetails`](../interfaces/ProductDetails.md)[] = `[]`
+> **`private`** **products**: [`ProductDetails`](../interfaces/ProductDetails.md)[] = `[]`
 
 ## Methods
 
 ### addProduct()
 
-• **addProduct**(`product`): [`ProductDetails`](../interfaces/ProductDetails.md)
+> **addProduct**(`product`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Add a new product to the inventory.
 
@@ -42,7 +42,7 @@ The added product details.
 
 ### getAllProducts()
 
-• **getAllProducts**(): [`ProductDetails`](../interfaces/ProductDetails.md)[]
+> **getAllProducts**(): [`ProductDetails`](../interfaces/ProductDetails.md)[]
 
 Get all products in the inventory.
 
@@ -56,7 +56,7 @@ An array of all product details.
 
 ### getProductById()
 
-• **getProductById**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
+> **getProductById**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Get product details by ID.
 
@@ -76,7 +76,7 @@ The product details with the specified ID.
 
 ### getProductsByCategory()
 
-• **getProductsByCategory**(`category`): [`ProductDetails`](../interfaces/ProductDetails.md)[]
+> **getProductsByCategory**(`category`): [`ProductDetails`](../interfaces/ProductDetails.md)[]
 
 Get products by category.
 
@@ -96,7 +96,7 @@ An array of product details in the specified category.
 
 ### removeProduct()
 
-• **removeProduct**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
+> **removeProduct**(`productId`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Remove a product from the inventory.
 
@@ -116,7 +116,7 @@ The removed product details.
 
 ### updateProductDetails()
 
-• **updateProductDetails**(`productId`, `updatedDetails`): [`ProductDetails`](../interfaces/ProductDetails.md)
+> **updateProductDetails**(`productId`, `updatedDetails`): [`ProductDetails`](../interfaces/ProductDetails.md)
 
 Update product details.
 

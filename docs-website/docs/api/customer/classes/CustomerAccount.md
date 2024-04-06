@@ -6,7 +6,7 @@ Class representing a customer account.
 
 ### new CustomerAccount(customer, contactInfo, billingInfo)
 
-• **new CustomerAccount**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
+> **new CustomerAccount**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
 
 #### Parameters
 
@@ -24,31 +24,31 @@ Class representing a customer account.
 
 ### billingInfo
 
-• **`private`** **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
+> **`private`** **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
 
 ***
 
 ### contactInfo
 
-• **`private`** **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
+> **`private`** **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
 
 ***
 
 ### customer
 
-• **`private`** **customer**: [`Customer`](../interfaces/Customer.md)
+> **`private`** **customer**: [`Customer`](../interfaces/Customer.md)
 
 ***
 
 ### orderHistory
 
-• **`private`** **orderHistory**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
+> **`private`** **orderHistory**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 ## Methods
 
 ### addOrderToHistory()
 
-• **addOrderToHistory**(`order`): `void`
+> **addOrderToHistory**(`order`): `void`
 
 Add an order to the customer's order history.
 
@@ -66,7 +66,7 @@ The order to be added to the history.
 
 ### getBillingInfo()
 
-• **getBillingInfo**(): [`CustomerBilling`](../interfaces/CustomerBilling.md)
+> **getBillingInfo**(): [`CustomerBilling`](../interfaces/CustomerBilling.md)
 
 Get the customer billing information.
 
@@ -80,7 +80,7 @@ The customer billing information.
 
 ### getContactInfo()
 
-• **getContactInfo**(): [`CustomerContact`](../interfaces/CustomerContact.md)
+> **getContactInfo**(): [`CustomerContact`](../interfaces/CustomerContact.md)
 
 Get the customer contact information.
 
@@ -94,7 +94,7 @@ The customer contact information.
 
 ### getCustomer()
 
-• **getCustomer**(): [`Customer`](../interfaces/Customer.md)
+> **getCustomer**(): [`Customer`](../interfaces/Customer.md)
 
 Get the customer information.
 
@@ -108,7 +108,7 @@ The customer information.
 
 ### getOrderHistory()
 
-• **getOrderHistory**(): [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
+> **getOrderHistory**(): [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 Get the customer's order history.
 

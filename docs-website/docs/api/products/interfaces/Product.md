@@ -10,16 +10,16 @@ Interface representing a product.
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 ***
 
 ### price
 
-• **price**: `number`
+> **price**: `number`
 
 ***
 
 ### productId
 
-• **productId**: `string`
+> **productId**: `string`

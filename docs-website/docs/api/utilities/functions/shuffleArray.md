@@ -1,6 +1,6 @@
 # shuffleArray()
 
-• **shuffleArray**\<`T`\>(`array`): `T`[]
+> **shuffleArray**\<`T`\>(`array`): `T`[]
 
 Function to shuffle an array.
 

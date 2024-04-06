@@ -6,22 +6,22 @@ Interface representing a shipping record.
 
 ### address
 
-• **address**: `string`
+> **address**: `string`
 
 ***
 
 ### orderId
 
-• **orderId**: `string`
+> **orderId**: `string`
 
 ***
 
 ### shipmentId
 
-• **shipmentId**: `string`
+> **shipmentId**: `string`
 
 ***
 
 ### status
 
-• **status**: `string`
+> **status**: `string`

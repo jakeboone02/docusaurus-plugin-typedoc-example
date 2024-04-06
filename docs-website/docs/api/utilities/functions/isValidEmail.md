@@ -1,6 +1,6 @@
 # isValidEmail()
 
-• **isValidEmail**(`email`): `boolean`
+> **isValidEmail**(`email`): `boolean`
 
 Function to check if a value is a valid email address.
 

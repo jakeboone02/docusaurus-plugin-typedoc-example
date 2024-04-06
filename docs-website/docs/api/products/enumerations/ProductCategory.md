@@ -6,22 +6,22 @@ Enum representing different product categories.
 
 ### Books
 
-• **Books**: `"Books"`
+> **Books**: `"Books"`
 
 ***
 
 ### Clothing
 
-• **Clothing**: `"Clothing"`
+> **Clothing**: `"Clothing"`
 
 ***
 
 ### Electronics
 
-• **Electronics**: `"Electronics"`
+> **Electronics**: `"Electronics"`
 
 ***
 
 ### HomeDecor
 
-• **HomeDecor**: `"Home Decor"`
+> **HomeDecor**: `"Home Decor"`

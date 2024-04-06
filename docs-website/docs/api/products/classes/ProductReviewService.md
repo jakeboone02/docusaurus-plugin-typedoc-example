@@ -6,7 +6,7 @@ Service for managing product reviews.
 
 ### new ProductReviewService()
 
-• **new ProductReviewService**(): [`ProductReviewService`](ProductReviewService.md)
+> **new ProductReviewService**(): [`ProductReviewService`](ProductReviewService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for managing product reviews.
 
 ### reviews
 
-• **`private`** **reviews**: [`ProductReview`](../interfaces/ProductReview.md)[] = `[]`
+> **`private`** **reviews**: [`ProductReview`](../interfaces/ProductReview.md)[] = `[]`
 
 ## Methods
 
 ### addProductReview()
 
-• **addProductReview**(`review`): [`ProductReview`](../interfaces/ProductReview.md)
+> **addProductReview**(`review`): [`ProductReview`](../interfaces/ProductReview.md)
 
 Add a new product review.
 
@@ -42,7 +42,7 @@ The added product review.
 
 ### getAverageRating()
 
-• **getAverageRating**(`productId`): `number`
+> **getAverageRating**(`productId`): `number`
 
 Get the average rating for a specific product.
 
@@ -62,7 +62,7 @@ The average rating for the specified product.
 
 ### getProductReviews()
 
-• **getProductReviews**(`productId`): [`ProductReview`](../interfaces/ProductReview.md)[]
+> **getProductReviews**(`productId`): [`ProductReview`](../interfaces/ProductReview.md)[]
 
 Get all product reviews for a specific product.
 

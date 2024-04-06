@@ -1,6 +1,6 @@
 # truncateString()
 
-• **truncateString**(`input`, `maxLength`): `string`
+> **truncateString**(`input`, `maxLength`): `string`
 
 Function to truncate a string to a specified length.
 

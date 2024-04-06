@@ -6,16 +6,16 @@ Enum representing different transaction statuses.
 
 ### Completed
 
-• **Completed**: `"Completed"`
+> **Completed**: `"Completed"`
 
 ***
 
 ### Failed
 
-• **Failed**: `"Failed"`
+> **Failed**: `"Failed"`
 
 ***
 
 ### Pending
 
-• **Pending**: `"Pending"`
+> **Pending**: `"Pending"`

@@ -6,7 +6,7 @@ Service for generating billing receipts.
 
 ### new BillingReceiptService()
 
-• **new BillingReceiptService**(): [`BillingReceiptService`](BillingReceiptService.md)
+> **new BillingReceiptService**(): [`BillingReceiptService`](BillingReceiptService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for generating billing receipts.
 
 ### receipts
 
-• **`private`** **receipts**: [`BillingReceipt`](../interfaces/BillingReceipt.md)[] = `[]`
+> **`private`** **receipts**: [`BillingReceipt`](../interfaces/BillingReceipt.md)[] = `[]`
 
 ## Methods
 
 ### generateReceipt()
 
-• **generateReceipt**(`transaction`): [`BillingReceipt`](../interfaces/BillingReceipt.md)
+> **generateReceipt**(`transaction`): [`BillingReceipt`](../interfaces/BillingReceipt.md)
 
 Generate a billing receipt for a transaction.
 
@@ -42,7 +42,7 @@ The generated billing receipt.
 
 ### getAllReceipts()
 
-• **getAllReceipts**(): [`BillingReceipt`](../interfaces/BillingReceipt.md)[]
+> **getAllReceipts**(): [`BillingReceipt`](../interfaces/BillingReceipt.md)[]
 
 Get all billing receipts.
 

@@ -6,16 +6,16 @@ Interface representing a customer order history.
 
 ### orderDate
 
-• **orderDate**: `Date`
+> **orderDate**: `Date`
 
 ***
 
 ### orderId
 
-• **orderId**: `string`
+> **orderId**: `string`
 
 ***
 
 ### totalAmount
 
-• **totalAmount**: `number`
+> **totalAmount**: `number`

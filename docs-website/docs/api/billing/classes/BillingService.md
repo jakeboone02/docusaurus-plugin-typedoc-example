@@ -6,7 +6,7 @@ Service for managing billing transactions.
 
 ### new BillingService()
 
-• **new BillingService**(): [`BillingService`](BillingService.md)
+> **new BillingService**(): [`BillingService`](BillingService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for managing billing transactions.
 
 ### transactions
 
-• **`private`** **transactions**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
+> **`private`** **transactions**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 
 ### getAllTransactions()
 
-• **getAllTransactions**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
+> **getAllTransactions**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
 
 Get all billing transactions.
 
@@ -36,7 +36,7 @@ An array of all billing transactions.
 
 ### processTransaction()
 
-• **processTransaction**(`transaction`): [`BillingTransaction`](../interfaces/BillingTransaction.md)
+> **processTransaction**(`transaction`): [`BillingTransaction`](../interfaces/BillingTransaction.md)
 
 Process a billing transaction.
 

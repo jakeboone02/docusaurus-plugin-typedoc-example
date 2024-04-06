@@ -6,28 +6,28 @@ Interface representing a customer.
 
 ### address
 
-• **address**: `string`
+> **address**: `string`
 
 ***
 
 ### customerId
 
-• **customerId**: `string`
+> **customerId**: `string`
 
 ***
 
 ### email
 
-• **email**: `string`
+> **email**: `string`
 
 ***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 ***
 
 ### type
 
-• **type**: [`CustomerType`](../enumerations/CustomerType.md)
+> **type**: [`CustomerType`](../enumerations/CustomerType.md)

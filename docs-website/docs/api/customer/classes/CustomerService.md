@@ -6,7 +6,7 @@ Service for managing customers.
 
 ### new CustomerService()
 
-• **new CustomerService**(): [`CustomerService`](CustomerService.md)
+> **new CustomerService**(): [`CustomerService`](CustomerService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for managing customers.
 
 ### customers
 
-• **`private`** **customers**: [`CustomerAccount`](CustomerAccount.md)[] = `[]`
+> **`private`** **customers**: [`CustomerAccount`](CustomerAccount.md)[] = `[]`
 
 ## Methods
 
 ### addCustomer()
 
-• **addCustomer**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
+> **addCustomer**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
 
 Add a new customer.
 
@@ -50,7 +50,7 @@ The added customer account.
 
 ### getAllCustomers()
 
-• **getAllCustomers**(): [`CustomerAccount`](CustomerAccount.md)[]
+> **getAllCustomers**(): [`CustomerAccount`](CustomerAccount.md)[]
 
 Get all customer accounts.
 
@@ -64,7 +64,7 @@ An array of all customer accounts.
 
 ### getCustomerById()
 
-• **getCustomerById**(`customerId`): [`CustomerAccount`](CustomerAccount.md)
+> **getCustomerById**(`customerId`): [`CustomerAccount`](CustomerAccount.md)
 
 Get a customer account by ID.
 

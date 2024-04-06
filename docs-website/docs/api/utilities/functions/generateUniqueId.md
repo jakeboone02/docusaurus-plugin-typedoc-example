@@ -1,6 +1,6 @@
 # generateUniqueId()
 
-• **generateUniqueId**(): `string`
+> **generateUniqueId**(): `string`
 
 Function to generate a unique identifier.
 

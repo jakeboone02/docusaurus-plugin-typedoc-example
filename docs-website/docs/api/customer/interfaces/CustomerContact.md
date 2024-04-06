@@ -6,10 +6,10 @@ Interface representing customer contact information.
 
 ### email
 
-• **email**: `string`
+> **email**: `string`
 
 ***
 
 ### phone?
 
-• **`optional`** **phone**: `string`
+> **`optional`** **phone**: `string`

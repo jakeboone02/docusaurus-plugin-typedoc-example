@@ -6,7 +6,7 @@ Service for managing billing history.
 
 ### new BillingHistoryService()
 
-• **new BillingHistoryService**(): [`BillingHistoryService`](BillingHistoryService.md)
+> **new BillingHistoryService**(): [`BillingHistoryService`](BillingHistoryService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for managing billing history.
 
 ### history
 
-• **`private`** **history**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
+> **`private`** **history**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 
 ### addTransactionToHistory()
 
-• **addTransactionToHistory**(`transaction`): `void`
+> **addTransactionToHistory**(`transaction`): `void`
 
 Add a transaction to the billing history.
 
@@ -40,7 +40,7 @@ The billing transaction to be added to the history.
 
 ### getBillingHistory()
 
-• **getBillingHistory**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
+> **getBillingHistory**(): [`BillingTransaction`](../interfaces/BillingTransaction.md)[]
 
 Get the entire billing history.
 

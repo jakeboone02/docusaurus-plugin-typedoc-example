@@ -6,10 +6,10 @@ Enum representing different customer types.
 
 ### Premium
 
-• **Premium**: `"Premium"`
+> **Premium**: `"Premium"`
 
 ***
 
 ### Regular
 
-• **Regular**: `"Regular"`
+> **Regular**: `"Regular"`

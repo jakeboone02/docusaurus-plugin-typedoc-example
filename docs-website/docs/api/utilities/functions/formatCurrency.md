@@ -1,6 +1,6 @@
 # formatCurrency()
 
-• **formatCurrency**(`amount`, `currencyCode`): `string`
+> **formatCurrency**(`amount`, `currencyCode`): `string`
 
 Function to format a number as currency.
 

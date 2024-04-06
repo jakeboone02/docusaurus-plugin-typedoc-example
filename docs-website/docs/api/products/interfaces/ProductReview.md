@@ -6,28 +6,28 @@ Interface representing a product review.
 
 ### comment?
 
-• **`optional`** **comment**: `string`
+> **`optional`** **comment**: `string`
 
 ***
 
 ### productId
 
-• **productId**: `string`
+> **productId**: `string`
 
 ***
 
 ### rating
 
-• **rating**: `number`
+> **rating**: `number`
 
 ***
 
 ### reviewId
 
-• **reviewId**: `string`
+> **reviewId**: `string`
 
 ***
 
 ### username
 
-• **username**: `string`
+> **username**: `string`

@@ -47,7 +47,6 @@ const config = {
           "title.indexPage": "TypeDoc API",
           "title.memberPage": "{name}",
         },
-        plugin: ["typedoc-plugin-coverage", "./typedoc-copy-coverage.mjs"],
       },
     ],
   ],

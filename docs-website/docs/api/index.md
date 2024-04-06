@@ -1,7 +1,5 @@
 # TypeDoc API
 
-![Coverage Badge](/img/coverage.svg)
-
 ## Modules
 
 | Module | Description |

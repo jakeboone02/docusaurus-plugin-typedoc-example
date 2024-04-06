@@ -6,7 +6,7 @@ Service for managing shipping records.
 
 ### new ShippingService()
 
-• **new ShippingService**(): [`ShippingService`](ShippingService.md)
+> **new ShippingService**(): [`ShippingService`](ShippingService.md)
 
 #### Returns
 
@@ -16,13 +16,13 @@ Service for managing shipping records.
 
 ### shipments
 
-• **`private`** **shipments**: [`ShippingRecord`](../interfaces/ShippingRecord.md)[] = `[]`
+> **`private`** **shipments**: [`ShippingRecord`](../interfaces/ShippingRecord.md)[] = `[]`
 
 ## Methods
 
 ### getAllShipments()
 
-• **getAllShipments**(): [`ShippingRecord`](../interfaces/ShippingRecord.md)[]
+> **getAllShipments**(): [`ShippingRecord`](../interfaces/ShippingRecord.md)[]
 
 Get all shipping records.
 
@@ -36,7 +36,7 @@ An array of all shipping records.
 
 ### shipOrder()
 
-• **shipOrder**(`shipment`): [`ShippingRecord`](../interfaces/ShippingRecord.md)
+> **shipOrder**(`shipment`): [`ShippingRecord`](../interfaces/ShippingRecord.md)
 
 Ship an order.
 

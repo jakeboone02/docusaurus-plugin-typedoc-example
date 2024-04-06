@@ -6,28 +6,28 @@ Interface representing a billing transaction.
 
 ### amount
 
-• **amount**: `number`
+> **amount**: `number`
 
 ***
 
 ### orderId
 
-• **orderId**: `string`
+> **orderId**: `string`
 
 ***
 
 ### paymentMethod
 
-• **paymentMethod**: [`PaymentMethod`](../enumerations/PaymentMethod.md)
+> **paymentMethod**: [`PaymentMethod`](../enumerations/PaymentMethod.md)
 
 ***
 
 ### status
 
-• **status**: [`TransactionStatus`](../enumerations/TransactionStatus.md)
+> **status**: [`TransactionStatus`](../enumerations/TransactionStatus.md)
 
 ***
 
 ### transactionId
 
-• **transactionId**: `string`
+> **transactionId**: `string`

@@ -6,10 +6,10 @@ Interface representing customer billing information.
 
 ### creditCardNumber
 
-• **creditCardNumber**: `string`
+> **creditCardNumber**: `string`
 
 ***
 
 ### expirationDate
 
-• **expirationDate**: `string`
+> **expirationDate**: `string`

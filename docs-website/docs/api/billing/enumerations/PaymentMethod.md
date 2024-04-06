@@ -6,16 +6,16 @@ Enum representing different types of payment methods.
 
 ### BankTransfer
 
-• **BankTransfer**: `"Bank Transfer"`
+> **BankTransfer**: `"Bank Transfer"`
 
 ***
 
 ### CreditCard
 
-• **CreditCard**: `"Credit Card"`
+> **CreditCard**: `"Credit Card"`
 
 ***
 
 ### PayPal
 
-• **PayPal**: `"PayPal"`
+> **PayPal**: `"PayPal"`

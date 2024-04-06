@@ -10,19 +10,19 @@ Interface representing product details.
 
 ### category
 
-• **category**: [`ProductCategory`](../enumerations/ProductCategory.md)
+> **category**: [`ProductCategory`](../enumerations/ProductCategory.md)
 
 ***
 
 ### description
 
-• **description**: `string`
+> **description**: `string`
 
 ***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Interface representing product details.
 
 ### price
 
-• **price**: `number`
+> **price**: `number`
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Interface representing product details.
 
 ### productId
 
-• **productId**: `string`
+> **productId**: `string`
 
 #### Inherited from
 

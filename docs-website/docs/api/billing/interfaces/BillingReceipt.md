@@ -6,16 +6,16 @@ Interface representing a billing receipt.
 
 ### receiptId
 
-• **receiptId**: `string`
+> **receiptId**: `string`
 
 ***
 
 ### timestamp
 
-• **timestamp**: `number`
+> **timestamp**: `number`
 
 ***
 
 ### transaction
 
-• **transaction**: [`BillingTransaction`](BillingTransaction.md)
+> **transaction**: [`BillingTransaction`](BillingTransaction.md)

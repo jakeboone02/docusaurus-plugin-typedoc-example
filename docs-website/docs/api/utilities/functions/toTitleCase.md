@@ -1,6 +1,6 @@
 # toTitleCase()
 
-• **toTitleCase**(`input`): `string`
+> **toTitleCase**(`input`): `string`
 
 Function to convert a string to title case.
 
