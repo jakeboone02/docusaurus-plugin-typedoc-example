@@ -16,7 +16,7 @@ Service for managing customers.
 
 ### customers
 
-> **`private`** **customers**: [`CustomerAccount`](CustomerAccount.md)[] = `[]`
+> `private` **customers**: [`CustomerAccount`](CustomerAccount.md)[] = `[]`
 
 ## Methods
 

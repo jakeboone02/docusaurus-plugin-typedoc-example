@@ -16,7 +16,7 @@ Service for managing billing transactions.
 
 ### transactions
 
-> **`private`** **transactions**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
+> `private` **transactions**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 

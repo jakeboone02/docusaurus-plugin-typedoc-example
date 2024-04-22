@@ -16,7 +16,7 @@ Service for generating billing receipts.
 
 ### receipts
 
-> **`private`** **receipts**: [`BillingReceipt`](../interfaces/BillingReceipt.md)[] = `[]`
+> `private` **receipts**: [`BillingReceipt`](../interfaces/BillingReceipt.md)[] = `[]`
 
 ## Methods
 

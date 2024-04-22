@@ -16,7 +16,7 @@ Service for managing product reviews.
 
 ### reviews
 
-> **`private`** **reviews**: [`ProductReview`](../interfaces/ProductReview.md)[] = `[]`
+> `private` **reviews**: [`ProductReview`](../interfaces/ProductReview.md)[] = `[]`
 
 ## Methods
 

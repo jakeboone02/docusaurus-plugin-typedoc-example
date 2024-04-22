@@ -16,7 +16,7 @@ Service for managing billing history.
 
 ### history
 
-> **`private`** **history**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
+> `private` **history**: [`BillingTransaction`](../interfaces/BillingTransaction.md)[] = `[]`
 
 ## Methods
 

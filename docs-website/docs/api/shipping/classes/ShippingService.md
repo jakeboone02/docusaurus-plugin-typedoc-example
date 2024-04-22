@@ -16,7 +16,7 @@ Service for managing shipping records.
 
 ### shipments
 
-> **`private`** **shipments**: [`ShippingRecord`](../interfaces/ShippingRecord.md)[] = `[]`
+> `private` **shipments**: [`ShippingRecord`](../interfaces/ShippingRecord.md)[] = `[]`
 
 ## Methods
 

@@ -12,4 +12,4 @@ Interface representing customer contact information.
 
 ### phone?
 
-> **`optional`** **phone**: `string`
+> `optional` **phone**: `string`

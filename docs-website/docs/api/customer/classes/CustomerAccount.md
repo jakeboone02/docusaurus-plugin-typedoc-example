@@ -4,7 +4,7 @@ Class representing a customer account.
 
 ## Constructors
 
-### new CustomerAccount(customer, contactInfo, billingInfo)
+### new CustomerAccount()
 
 > **new CustomerAccount**(`customer`, `contactInfo`, `billingInfo`): [`CustomerAccount`](CustomerAccount.md)
 
@@ -24,25 +24,25 @@ Class representing a customer account.
 
 ### billingInfo
 
-> **`private`** **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
+> `private` **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
 
 ***
 
 ### contactInfo
 
-> **`private`** **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
+> `private` **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
 
 ***
 
 ### customer
 
-> **`private`** **customer**: [`Customer`](../interfaces/Customer.md)
+> `private` **customer**: [`Customer`](../interfaces/Customer.md)
 
 ***
 
 ### orderHistory
 
-> **`private`** **orderHistory**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
+> `private` **orderHistory**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)[]
 
 ## Methods
 

@@ -16,7 +16,7 @@ Class representing a product inventory.
 
 ### products
 
-> **`private`** **products**: [`ProductDetails`](../interfaces/ProductDetails.md)[] = `[]`
+> `private` **products**: [`ProductDetails`](../interfaces/ProductDetails.md)[] = `[]`
 
 ## Methods
 

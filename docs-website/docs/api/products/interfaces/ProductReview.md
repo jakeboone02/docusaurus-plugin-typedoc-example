@@ -6,7 +6,7 @@ Interface representing a product review.
 
 ### comment?
 
-> **`optional`** **comment**: `string`
+> `optional` **comment**: `string`
 
 ***
 
