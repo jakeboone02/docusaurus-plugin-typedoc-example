@@ -26,7 +26,7 @@ Interface representing product details.
 
 #### Inherited from
 
-[`Product`](Product.md).[`name`](Product.md#name)
+[`Product`](Product.md) . [`name`](Product.md#name)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing product details.
 
 #### Inherited from
 
-[`Product`](Product.md).[`price`](Product.md#price)
+[`Product`](Product.md) . [`price`](Product.md#price)
 
 ***
 
@@ -46,4 +46,4 @@ Interface representing product details.
 
 #### Inherited from
 
-[`Product`](Product.md).[`productId`](Product.md#productid)
+[`Product`](Product.md) . [`productId`](Product.md#productid)

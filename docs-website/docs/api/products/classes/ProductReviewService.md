@@ -28,9 +28,9 @@ Add a new product review.
 
 #### Parameters
 
-• **review**: [`ProductReview`](../interfaces/ProductReview.md)
-
-The product review to be added.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `review` | [`ProductReview`](../interfaces/ProductReview.md) | The product review to be added. |
 
 #### Returns
 
@@ -48,9 +48,9 @@ Get the average rating for a specific product.
 
 #### Parameters
 
-• **productId**: `string`
-
-The ID of the product.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `productId` | `string` | The ID of the product. |
 
 #### Returns
 
@@ -68,9 +68,9 @@ Get all product reviews for a specific product.
 
 #### Parameters
 
-• **productId**: `string`
-
-The ID of the product.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `productId` | `string` | The ID of the product. |
 
 #### Returns
 

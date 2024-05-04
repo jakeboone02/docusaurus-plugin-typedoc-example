@@ -4,18 +4,8 @@ Enum representing different transaction statuses.
 
 ## Enumeration Members
 
-### Completed
-
-> **Completed**: `"Completed"`
-
-***
-
-### Failed
-
-> **Failed**: `"Failed"`
-
-***
-
-### Pending
-
-> **Pending**: `"Pending"`
+| Enumeration Member | Value |
+| :------ | :------ |
+| `Completed` | `"Completed"` |
+| `Failed` | `"Failed"` |
+| `Pending` | `"Pending"` |

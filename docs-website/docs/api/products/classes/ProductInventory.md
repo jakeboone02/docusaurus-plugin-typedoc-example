@@ -28,9 +28,9 @@ Add a new product to the inventory.
 
 #### Parameters
 
-• **product**: [`ProductDetails`](../interfaces/ProductDetails.md)
-
-The product to be added.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `product` | [`ProductDetails`](../interfaces/ProductDetails.md) | The product to be added. |
 
 #### Returns
 
@@ -62,9 +62,9 @@ Get product details by ID.
 
 #### Parameters
 
-• **productId**: `string`
-
-The ID of the product.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `productId` | `string` | The ID of the product. |
 
 #### Returns
 
@@ -82,9 +82,9 @@ Get products by category.
 
 #### Parameters
 
-• **category**: [`ProductCategory`](../enumerations/ProductCategory.md)
-
-The product category.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `category` | [`ProductCategory`](../enumerations/ProductCategory.md) | The product category. |
 
 #### Returns
 
@@ -102,9 +102,9 @@ Remove a product from the inventory.
 
 #### Parameters
 
-• **productId**: `string`
-
-The ID of the product to be removed.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `productId` | `string` | The ID of the product to be removed. |
 
 #### Returns
 
@@ -122,13 +122,10 @@ Update product details.
 
 #### Parameters
 
-• **productId**: `string`
-
-The ID of the product to be updated.
-
-• **updatedDetails**: [`ProductDetails`](../interfaces/ProductDetails.md)
-
-The updated product details.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `productId` | `string` | The ID of the product to be updated. |
+| `updatedDetails` | [`ProductDetails`](../interfaces/ProductDetails.md) | The updated product details. |
 
 #### Returns
 

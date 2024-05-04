@@ -6,13 +6,10 @@ Function to truncate a string to a specified length.
 
 ## Parameters
 
-• **input**: `string`
-
-The input string.
-
-• **maxLength**: `number`
-
-The maximum length of the truncated string.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `input` | `string` | The input string. |
+| `maxLength` | `number` | The maximum length of the truncated string. |
 
 ## Returns
 

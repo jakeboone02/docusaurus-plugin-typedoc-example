@@ -39,6 +39,7 @@ const config = {
       "docusaurus-plugin-typedoc",
       {
         entryPoints: "../src/*",
+        plugin: ["./typedoc-plugin.mjs"],
         readme: "none",
         indexFormat: "table",
         disableSources: true,
@@ -47,6 +48,8 @@ const config = {
           "title.indexPage": "TypeDoc API",
           "title.memberPage": "{name}",
         },
+        parametersFormat: "table",
+        enumMembersFormat: "table",
       },
     ],
   ],

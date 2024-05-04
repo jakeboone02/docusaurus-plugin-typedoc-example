@@ -4,12 +4,7 @@ Enum representing different customer types.
 
 ## Enumeration Members
 
-### Premium
-
-> **Premium**: `"Premium"`
-
-***
-
-### Regular
-
-> **Regular**: `"Regular"`
+| Enumeration Member | Value |
+| :------ | :------ |
+| `Premium` | `"Premium"` |
+| `Regular` | `"Regular"` |

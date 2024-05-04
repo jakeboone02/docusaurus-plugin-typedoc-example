@@ -42,9 +42,9 @@ Process a billing transaction.
 
 #### Parameters
 
-• **transaction**: [`BillingTransaction`](../interfaces/BillingTransaction.md)
-
-The billing transaction to be processed.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `transaction` | [`BillingTransaction`](../interfaces/BillingTransaction.md) | The billing transaction to be processed. |
 
 #### Returns
 

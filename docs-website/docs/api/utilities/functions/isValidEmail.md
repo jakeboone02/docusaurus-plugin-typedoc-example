@@ -6,9 +6,9 @@ Function to check if a value is a valid email address.
 
 ## Parameters
 
-• **email**: `string`
-
-The email address to be validated.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `email` | `string` | The email address to be validated. |
 
 ## Returns
 

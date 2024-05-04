@@ -10,11 +10,11 @@ Class representing a customer account.
 
 #### Parameters
 
-• **customer**: [`Customer`](../interfaces/Customer.md)
-
-• **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
-
-• **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
+| Parameter | Type |
+| :------ | :------ |
+| `customer` | [`Customer`](../interfaces/Customer.md) |
+| `contactInfo` | [`CustomerContact`](../interfaces/CustomerContact.md) |
+| `billingInfo` | [`CustomerBilling`](../interfaces/CustomerBilling.md) |
 
 #### Returns
 
@@ -54,9 +54,9 @@ Add an order to the customer's order history.
 
 #### Parameters
 
-• **order**: [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md)
-
-The order to be added to the history.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `order` | [`CustomerOrderHistory`](../interfaces/CustomerOrderHistory.md) | The order to be added to the history. |
 
 #### Returns
 

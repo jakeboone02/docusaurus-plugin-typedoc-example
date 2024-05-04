@@ -4,24 +4,9 @@ Enum representing different product categories.
 
 ## Enumeration Members
 
-### Books
-
-> **Books**: `"Books"`
-
-***
-
-### Clothing
-
-> **Clothing**: `"Clothing"`
-
-***
-
-### Electronics
-
-> **Electronics**: `"Electronics"`
-
-***
-
-### HomeDecor
-
-> **HomeDecor**: `"Home Decor"`
+| Enumeration Member | Value |
+| :------ | :------ |
+| `Books` | `"Books"` |
+| `Clothing` | `"Clothing"` |
+| `Electronics` | `"Electronics"` |
+| `HomeDecor` | `"Home Decor"` |

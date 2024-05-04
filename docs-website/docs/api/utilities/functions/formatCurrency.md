@@ -6,13 +6,10 @@ Function to format a number as currency.
 
 ## Parameters
 
-• **amount**: `number`
-
-The amount to be formatted.
-
-• **currencyCode**: `string`
-
-The currency code (e.g., USD, EUR).
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `amount` | `number` | The amount to be formatted. |
+| `currencyCode` | `string` | The currency code (e.g., USD, EUR). |
 
 ## Returns
 

@@ -42,9 +42,9 @@ Ship an order.
 
 #### Parameters
 
-• **shipment**: [`ShippingRecord`](../interfaces/ShippingRecord.md)
-
-The shipment record.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `shipment` | [`ShippingRecord`](../interfaces/ShippingRecord.md) | The shipment record. |
 
 #### Returns
 

@@ -6,13 +6,15 @@ Function to shuffle an array.
 
 ## Type parameters
 
-• **T**
+| Type parameter |
+| :------ |
+| `T` |
 
 ## Parameters
 
-• **array**: `T`[]
-
-The array to be shuffled.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `array` | `T`[] | The array to be shuffled. |
 
 ## Returns
 

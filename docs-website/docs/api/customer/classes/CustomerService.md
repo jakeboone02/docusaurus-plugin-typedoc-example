@@ -28,17 +28,11 @@ Add a new customer.
 
 #### Parameters
 
-• **customer**: [`Customer`](../interfaces/Customer.md)
-
-The customer to be added.
-
-• **contactInfo**: [`CustomerContact`](../interfaces/CustomerContact.md)
-
-The contact information for the customer.
-
-• **billingInfo**: [`CustomerBilling`](../interfaces/CustomerBilling.md)
-
-The billing information for the customer.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `customer` | [`Customer`](../interfaces/Customer.md) | The customer to be added. |
+| `contactInfo` | [`CustomerContact`](../interfaces/CustomerContact.md) | The contact information for the customer. |
+| `billingInfo` | [`CustomerBilling`](../interfaces/CustomerBilling.md) | The billing information for the customer. |
 
 #### Returns
 
@@ -70,9 +64,9 @@ Get a customer account by ID.
 
 #### Parameters
 
-• **customerId**: `string`
-
-The ID of the customer.
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `customerId` | `string` | The ID of the customer. |
 
 #### Returns
 
